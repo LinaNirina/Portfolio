@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(46, 44, 44, 0.562);
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: fixed;
+    top: 0;
+}
+.logo{
+    width: 90px;
+    height: 75px;
+    margin-left: 50px;
+    background-image: url(imgs/logo.png);
+    background-size: cover;
+    cursor: pointer;
+    align-items: flex-end;
+    /* background-color: aqua; */
+}
+.menu{
+    margin-right: 10px;
+    display: flex;
+    width: 30%;
+    justify-content:space-around ;
+    color: white;
+    /* background-color: antiquewhite; */
+}
+h2:hover{
+    color: rgba(255, 0, 0, 0.822);
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-top: 0;
+    font-size: xx-large;
+}
+.corps{
+    margin-top: 10%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+    width: 100%;
+}
+.desc{
+    width: 48%;
+    /* height: 500px; */
+    margin-top: 5%;
+    /* background-color: rgb(17, 0, 255); */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+.desc h1{
+    font-size: 45px;
+    margin: 0;
+    padding: 0;
+}
+.btn_des{
+    height: 30px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border-color: red;
+    border-style: solid;
+    float: right;
+    cursor: pointer;
+}
+.btn_des:hover{
+    border-color: black;
+    background-color: red;
+    color: white;
+}
+.text{
+    padding: 0;
+    margin-left: 3%;
+}
+.photo{
+    width: 48%;
+    /* margin-left: 2%; */
+}
+.photo img{
+    width: 100%;
+}
